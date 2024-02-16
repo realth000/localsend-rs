@@ -2,7 +2,17 @@
 name = "localsend-rs"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["realth000"]
+homepage = "https://github.com/realth000/localsend-rs"
+license = "MIT"
+repository = "https://github.com/realth000/localsend-rs"
 
 [dependencies]
+clap = { version = "4.5.1", features = ["derive"] }
+futures = "0.3.30"
+racros = "0.1.0"
+serde = { version = "1.0.196", features = ["derive"] }
+serde_json = "1.0.113"
+serde_json_path = "0.6.5"
+tokio = "1.36.0"
+toml = "0.8.10"
