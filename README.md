@@ -1,15 +1,17 @@
 # localsend-rs
 
+Why use rust? Because clap is awesome.
+
 ## Introduction
 
 This repo is working on a cli version of localsend for some situations when using the official GUI version on desktop
-plarforms:
+platforms:
 
 * Frequent same file transfer is not convenient enough.
 * Single time file transfer can be lighter and easier to use.
 * Automatically transfer could be done with full configuration.
 
-# Motivation
+## Motivation
 
 Actually the motivation of this repo is some linux style convenient command experience in terminal.
 
@@ -25,7 +27,7 @@ Repeating these steps is tiring and a shell script is not good enough.
 
 So here comes the idea of cli version localsend.
 
-# Goal
+## Goal
 
 * [ ] Single time file send.
 * [ ] Configure the receiver and automatically send files to the target.
